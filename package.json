@@ -1,0 +1,31 @@
+{
+  "name": "jarvil-plugin-encoding",
+  "version": "1.0.0",
+  "description": "A Plugin for Jarvil to de- and encode various forms of charcters",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "@types/jest": "^23.3.5"
+  }
+}
